@@ -1,0 +1,18 @@
+WEB EXPLOITATION:
+Don’t use client side. 
+The link given in the task was tested.
+On opening the link, nothing much was displayed. But on inspection a HTML document was displayed.
+The Body of the document consisted of the password. The screenshots of above-mentioned activities are given below:
+
+Plumbing  -general skill
+Based on general skill ; asks you to find password using linux commands .To begin with I used nc command to get the data but the file contained recurring data .
+Then I used grep command to extract required password and thus the level was cleared.
+ 
+Inspect HTML
+In this a website link was provided which had no clear mentioned data ,so on opening source code ..HTML format provided access to the password and hence cleared the stage
+
+FINDME
+Find me was one of the most challenging part , After downloading the instance I was taken to a webpage which was asking me to submit the flag,
+I tried using various passwords but nothing worked .Even on inspecting the source code I didn’t find anything useful the  I used the url information’
+Using base64 decoder I decoded the text and hence got the flag
+
